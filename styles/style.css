@@ -12,11 +12,12 @@ body {
     margin: 0;
     font-family: 'Signika', sans-serif;
     color: #1A1A1A;
+    
 }
 
 .logo {
     margin: 0px;
-    width: 150px;
+    width: 15%;
 }
 
 header {
@@ -32,6 +33,7 @@ header>div {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 10px;
 }
 
 .nav-menu li {
@@ -50,6 +52,7 @@ nav a {
     background-image: url(../images/landing.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 100vh;
     color: white;
@@ -112,9 +115,11 @@ nav a {
 .bottom article {
     width: 300px;
     font-size: 25px;
+    letter-spacing: 1.2
 }
 
 .bottom hr {
+    /*display: inline; usando o display inline ele usa somente o tamanho do texto*/
     width: 283px;    
     border-color: white;
     border-top: 30px;
