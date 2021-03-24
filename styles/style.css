@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@300&display=swap');
 /*
 Colors:
 
@@ -6,3 +7,150 @@ Green: #00B172
 White: #FFF
 
 */
+
+body {
+    margin: 0;
+    font-family: 'Signika', sans-serif;
+    color: #1A1A1A;
+}
+
+.logo {
+    margin: 0px;
+    width: 150px;
+}
+
+header {
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    
+
+}
+
+header>div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu li {
+    display: inline;
+    padding: 0 7px;
+    
+
+}
+nav a {
+    text-decoration: none;
+    color: #1A1A1A
+}
+
+.hero {
+    
+    background-image: url(../images/landing.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+    font-size: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;       
+}
+.hero h1 {
+    font-size: 70px;
+}
+.hero p {
+    font-size: 25px;
+    text-align: center;
+    font-weight: justify;
+}
+
+.mid p {
+    text-align: center;
+    padding-top: 12px;
+    font-size: 30px;
+    margin-bottom: -4px;
+    font-weight: bolder;
+}
+.mid hr {
+    border-color: #00B172;
+    width: 220px;
+    margin-bottom: 55px;
+}
+.recursos {
+    margin-bottom: 50px;
+}
+
+.recursos img {
+    width: 80px;
+}
+.recursos > div {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 14px;
+    align-items: baseline;
+}
+.recursos p {
+    color: #00B172;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.bottom {
+    background-color: #00B172;
+    color: white;
+    margin-left: -20px;
+    margin-right: 20px;
+
+}
+.bottom article {
+    width: 300px;
+    font-size: 25px;
+}
+
+.bottom hr {
+    width: 283px;    
+    border-color: white;
+    border-top: 30px;
+    margin-left: -1px;
+    height: 1px;
+    background-color: white;
+    
+}
+.bottom > div {     
+    padding-top: 50px;   
+    font-size: 18px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.iconeBranco {
+    width: 90px;
+    margin-left: -210px;
+    margin-top: 30px;
+
+}
+
+.app {
+    height: 390px;
+    width: 170px;
+    margin-top: 15px;
+    margin-left: -240px;
+}
+.bottom h3 {
+    padding-top: 18px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.words {
+    font-size: 14px;
+    padding-left: 70px;
+}
